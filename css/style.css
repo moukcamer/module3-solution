@@ -5,8 +5,13 @@ body{
        font-family: 'Exo 2', sans-serif;
 	background-color: #8e24aa;
 }
+.container{
+	background-color: green;
+}
 
-
+.row{
+	background-color: yellow;
+}
       .navbar-brand {
 	      padding-top: 25px;
         }
