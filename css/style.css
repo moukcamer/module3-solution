@@ -4,7 +4,14 @@
 		background-color: #8e24aa;
 	}
 
-
+.container-fluid {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
       .navbar-brand {
 	      padding-top: 25px;
         }
@@ -27,8 +34,8 @@
 	       padding: 9px 10px;
 	       margin-right: 15px;
 	       margin-botton: 8px;
-	       backgroung-color: black;
-	       border: 1px solid black;
+	       backgroung-color: transparent;
+	       border: 1px solid transparent;
 	       border-radius: 4px;
         }
         .navbar-toggle:focus{
