@@ -1,54 +1,76 @@
 
-body {
-    font-size: 16px;
-    color: #fff;
-    background-color: #61122f;
-    font-family: 'Oxygen', sans-serif;
-}
+* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: white;
+	}
+      .navbar-brand {
+	      padding-top: 25px;
+        }
+      .navbar-brand {
+	    font-family: Helvetica;
+	     color: grey;
+	      font-size:1.5em;
+	      text-transform: uppercase;
+	      font-weight: bold;
+	      text-shadow: 1px 1px 1px #222;
+	      margin-top:0;
+	      margin-bottom:0;
+	      line-height: .75;
+         }
 
-/** HEADER **/
-#header-nav {
-    background-color: #f6b319;
-    border-radius: 0;
-    border: 0;
-}
+	.navbar-brand a:hover,  .navbar-brand a:focus {
+		text-decoration:none;
+        }
+	
+       .navbar-toggle{
+	       position:relative;
+	       float:right;
+	       margin-top: 8px;
+	       padding: 9px 10px;
+	       margin-right: 15px;
+	       margin-botton: 8px;backgroung-color: transparent;
+	       border: 1px solid transparent;
+	       border-radius: 4px;
+        }
+        .navbar-toggle:focus{
+		outline: 0;
+       }
+       .navbar-toggle .icon-bar{
+	       display: block;
+	       width: 22px;
+	       height: 2px;
+	       border-radius: 1px;
+      }
+      .navbar-toggle icon-bar + .icon-bar{
+	      margin-top: 4px;
+      }
+       @media (min-width: 768px){
+	       .navbar-toggle{
+		       display: none;
+	       }
+      }
+      .navbar-nav {
+	      margin: 7.5px -15px;
+      }
+      .navbar-nav {
+	      padding-top: 10px;
+	      padding-botton: 10px;
+	      line-height: 20px
+     }
+    .navbar-header button.navbar-toggle, navbar-header .icon-bar {
+	    border: 1px solid #61122f;
+    }
 
-.navbar-brand {
-    padding-top: 25px;
-    padding-bottom: 40px;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-}
-.navbar-brand h1 { /* Restaurant name */
-    font-family: 'Lora', serif;
-    color: #557c3e;
-    font-size: 1.7em;
-    text-transform: uppercase;
-    position: relative;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-    padding-bottom: 20px;
-}
-
-#nav-list {
-    margin-top: 10px;
-}
-#nav-list a {
-    color: #951C49;
-    text-align: center;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -33px;
-}
-
+h2 {
+		margin: 10px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 175%;
+    color:blue;
+	}
 
 #nav-list li p {
     background: #8e24aa;
