@@ -1,9 +1,9 @@
 
 
-	body {
-		background-color: #8e24aa;
-	}
-
+body{
+	font-size: 16px;	
+  font-family: 'Exo 2', sans-serif;
+}
 
       .navbar-brand {
 	      padding-top: 25px;
