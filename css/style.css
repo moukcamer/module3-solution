@@ -1,14 +1,12 @@
 
-* {
-		box-sizing: border-box;
-	}
+
 	body {
 		background-color: white;
 	}
       .navbar-brand {
 	      padding-top: 25px;
         }
-      .navbar-brand {
+      .navbar-brand h1 {
 	    font-family: Helvetica;
 	     color: grey;
 	      font-size:1.5em;
@@ -19,10 +17,6 @@
 	      margin-bottom:0;
 	      line-height: .75;
          }
-
-	.navbar-brand a:hover,  .navbar-brand a:focus {
-		text-decoration:none;
-        }
 	
        .navbar-toggle{
 	       position:relative;
@@ -69,13 +63,19 @@ h2 {
 		font-family: Helvetica;
 		font-weight: bold;
 		font-size: 175%;
-    color:blue;
+               color:blue;
 	}
 
-#nav-list li p {
-    background: #8e24aa;
+#nav-list p {
+    background:#E7E7E7;
 }
 
+#nav-list p {
+	color: #951C49
+	text-align: center;
+#nav-list {
+	margin-top: 10px;
+}
 /* END HEADER */
 
 /* HOME PAGE */
