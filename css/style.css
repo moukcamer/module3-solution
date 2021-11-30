@@ -58,14 +58,13 @@ h2 {
 #nav-list a span {
     font-size:1.8em;
 }
-
-.main-text {
+.food {
     background-color: grey;
     margin: 20px 50px;
     padding: 1px;
 }
 
-.item-name p {
+.food p {
     margin: 10px;
 }
 
