@@ -68,9 +68,9 @@ p {
         .navbar-toggle:focus{
 		outline: 0;
        }
-  .navbar{
+.navbar{
 	border-radius: 0px;
-	background-color: yellow;
+	background-color: rgba(0,0,0,0.8);
 }
        .navbar-toggle .icon-bar{
 	       display: block;
