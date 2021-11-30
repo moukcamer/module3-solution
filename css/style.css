@@ -59,13 +59,13 @@ h2 {
     font-size:1.8em;
 }
 
-.food {
+.main-text {
     background-color: grey;
     margin: 20px 50px;
     padding: 1px;
 }
 
-.food p {
+.item-name p {
     margin: 10px;
 }
 
