@@ -15,7 +15,7 @@ h2 {
 
 #header-nav > .container {
     width: 100%;
-    padding: 0;
+    padding: 10px;
     background-color: 5e0202;
     border-top: black solid 3px;
     border-bottom: black solid 3px;
@@ -80,10 +80,10 @@ h2 {
 }
 
 .navbar-brand {
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
-     h1 {
+.navbar-brand h1 {
 	    font-family: Helvetica;
 	     color: grey;
 	      font-size:1.5em;
@@ -93,7 +93,11 @@ h2 {
 	      margin-top:0;
 	      margin-bottom:0;
 	      line-height: .75;
+	      text-align: left;
          }
 
-
+#space{
+    height:1000px;
+    width:0;
+}
 
