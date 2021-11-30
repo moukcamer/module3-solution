@@ -12,7 +12,7 @@ h2 {
 #header-nav > .container {
     width: 100%;
     padding: 0;
-    background-color: rgb(153, 153, 153);
+    background-color: 5e0202;
     border-top: black solid 3px;
     border-bottom: black solid 3px;
 }
@@ -74,7 +74,7 @@ h2 {
 }
 
 .navbar-brand {
-    padding-top: 0;
+    padding-top: 10px;
 }
 
 .navbar-brand h1 {
