@@ -2,15 +2,14 @@
 
 body{
 	font-size: 16px;	
-       font-family: 'Exo 2', sans-serif;
-	background-color: #8e24aa;
+	color: #fff;
+       font-family: "oxygen", sans se-rif;
+	background-color: #61122f;
 }
-.container{
-	background-color: green;
-}
-
-.row{
-	background-color: yellow;
+#header-nav{
+	blackground-color: #f66319;
+	border-raduis:0;
+	border:0;
 }
       .navbar-brand {
 	      padding-top: 25px;
@@ -56,16 +55,19 @@ body{
 	       }
       }
       .navbar-nav {
-	      margin: 0px -15px;
+	      margin: 7.5px -15px;
       }
       .navbar-nav {
 	      padding-top: 10px;
 	      padding-botton: 10px;
-	      line-height: 20px
+	      line-height: 20px;
      }
     .navbar-header button.navbar-toggle, navbar-header .icon-bar {
 	    border: 1px solid #61122f;
     }
+.navbar-header button.navbar-toggle{
+	clear:both;
+}
 
 h2 {
 		margin: 10px;
@@ -76,16 +78,19 @@ h2 {
                color:blue;
 	}
 	
-#nav-list p {
+#nav-list a:hover {
     background:#E7E7E7;
 }
 
-#nav-list p {
-	color: #951C49
+#nav-list a {
+	color: #951C49;
 	text-align: center;
 }
 #nav-list {
 	margin-top: 10px;
+}
+#nav-list a span{
+	font-size: 1.8em;
 }
 /* END HEADER */
 
@@ -120,10 +125,11 @@ h2 {
     /* Header */
     .navbar-brand {
         padding-top: 10px;
+	height: 80px;
     }
     .navbar-brand h1 { /* Restaurant name */
         padding-top: 10px;
-        font-size: 4vw; /* 1vw = 1% of viewport width */
+        font-size: 5vw; /* 1vw = 1% of viewport with */
     }
 
     #collapsable-nav a { /* Collapsed nav menu text */
