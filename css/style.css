@@ -82,14 +82,20 @@ h2 {
     padding-top: 10px;
 }
 
-.navbar-brand h1 {
-    color: black;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-    margin-left: 0;
-    text-align: left;
-}
+      .navbar-brand h1 {
+	    font-family: Helvetica;
+	     color: grey;
+	      font-size:1.5em;
+	      text-transform: uppercase;
+	      font-weight: bold;
+	      text-shadow: 1px 1px 1px #222;
+	      margin-top:0;
+	      margin-bottom:0;
+	      line-height: .75;
+         }
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+	}
 
 #space{
     height:1000px;
