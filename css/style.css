@@ -23,6 +23,7 @@ h2 {
     padding: 10px;
     margin: 0;
     width: 100%;
+    border: black solid 3px;
 }
 
 .navbar-default button.navbar-toggle {
@@ -41,7 +42,7 @@ h2 {
 }
 
 #nav-list {
-    background-color: white;
+    background-color: #5e0202;
     margin: 0;
     padding:0;
 }
@@ -64,7 +65,7 @@ h2 {
     font-size:1.8em;
 }
 .text-center {
-    background-color: grey;
+    background-color: bleu;
     margin: 20px 50px;
     padding: 1px;
 }
