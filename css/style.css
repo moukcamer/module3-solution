@@ -1,9 +1,13 @@
 body{
 	font-size: 16px;	
-	color: #666666;
+	color: #fff;
        font-family: "Oxygen", sans-serif;
 	background-color: #61122f;
 }
+#header-nav{
+	blackground-color: #f66319;
+	border-radius:0;
+	border:0;
 
 h2 {
     text-align: center;
