@@ -14,6 +14,12 @@ li{
 	box-sizing: border-box;
 	width: 100%;
 }
+#nav-list > li {
+    border-top: #888 solid 1px;
+    border-bottom: #888 solid 1px;
+}
+
+
 #header-nav{
 	blackground-color: #f66319;
 	border-radius:0;
@@ -30,7 +36,9 @@ li{
 .icon-bar{
 	background-color: red;
 }
-
+p {
+    text-align: center;
+}
       .navbar-brand {
 	      padding-top: 25px;
         }
@@ -92,7 +100,10 @@ li{
 .navbar-header button.navbar-toggle{
 	clear:both;
 }
-
+.navbar-default .navbar-toggle span.icon-bar {
+    height: 4px;
+    background-color: black;
+}
 h2 {
 		margin: 10px;
 		text-align: center;
@@ -112,6 +123,7 @@ h2 {
 }
 #nav-list {
 	margin-top: 10px;
+        background-color: bleu;
 }
 #nav-list a span{
 	font-size: 1.8em;
