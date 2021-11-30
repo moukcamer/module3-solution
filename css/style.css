@@ -45,11 +45,8 @@ h2 {
     font-weight: bold;
 }
 
-#nav-list {
-    background-color: #5e0202;
-    margin: 0;
-    padding:0;
-}
+
+
 
 #nav-list > li {
     border-top:#f66319 solid 1px;
