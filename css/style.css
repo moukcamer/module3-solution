@@ -101,3 +101,28 @@ h2 {
     padding-top: 25px;
 }
 
+        .navbar-toggle:focus{
+		outline: 0;
+       }
+navbar-toggle .icon-bar{
+	       display: block;
+	       width: 22px;
+	       height: 2px;
+	       border-radius: 1px;
+      }
+      .navbar-toggle icon-bar + .icon-bar{
+	      margin-top: 4px;
+      }
+       @media (min-width: 768px){
+	       .navbar-toggle{
+		       display: none;
+	       }
+      }
+      .navbar-nav {
+	      margin: 7.5px -15px;
+      }
+      .navbar-nav {
+	      padding-top: 10px;
+	      padding-botton: 10px;
+	      line-height: 20px;
+     }
