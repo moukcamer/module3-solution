@@ -20,7 +20,20 @@ body{
     border-top: black solid 3px;
     border-bottom: black solid 3px;
 }
-
+navbar-inverse .navbar-toggle {
+    border-color:#333;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 .navbar-header {
     font-weight: bold;
     color: black;
@@ -44,6 +57,11 @@ body{
     height: 4px;
     background-color: black;
 }
+.navbar {
+    border: none;
+    background-color: black;
+    color: #61122F;
+    }
 
 #heading {
     font-size: 35px;
