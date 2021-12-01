@@ -1,57 +1,48 @@
 body{
 	font-size: 16px;	
-	color: #666666;
+	color: #fff;
        font-family: "Oxygen", sans-serif;
 	background-color: #61122f;
 }
-.container-fluid{
-	margin: 0;
-	padding: 0;
-}
-li{
-	box-sizing: border-box;
-	width: 100%;
-}
-#nav-list > li {
-    border-top:#f66319 solid 1px;
-    border-bottom: #f66319888 solid 1px;
-}
-
-
 #header-nav{
 	blackground-color: #f66319;
 	border-radius:0;
 	border:0;
 }
-.item-name{
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-}
-.row{
-	margin: 20px;
-}
-.icon-bar{
-	background-color: red;
-}
-p {
+h2 {
     text-align: center;
 }
-      .navbar-brand {
-	      padding-top: 25px;
-        }
-      .navbar-brand h1 {
-	    font-family: Helvetica;
-	     color: grey;
-	      font-size:1.5em;
-	      text-transform: uppercase;
-	      font-weight: bold;
-	      text-shadow: 1px 1px 1px #222;
-	      margin-top:0;
-	      margin-bottom:0;
-	      line-height: .75;
-         }
-	
+#header-nav > .container {
+    width: 100%;
+    padding: 10px;
+    background-color: 5e0202;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+}
+
+.navbar-header {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    border: black solid 3px;
+}
+
+.navbar-default button.navbar-toggle {
+    border-color: black;
+    padding: 8px;
+}
+
+.navbar-default .navbar-toggle span.icon-bar {
+    height: 4px;
+    background-color: black;
+}
+
+#heading {
+    font-size: 35px;
+    font-weight: bold;
+}
        .navbar-toggle{
 	       position:relative;
 	       float:right;
@@ -63,14 +54,58 @@ p {
 	       border-radius: 4px;
 	       border: 2px solid red;
         }
+
+.navbar-brand h1 {
+	    font-family: Helvetica;
+	     color: grey;
+	      font-size:1.5em;
+	      text-transform: uppercase;
+	      font-weight: bold;
+	      text-shadow: 1px 1px 1px #222;
+	      margin-top:0;
+#nav-list {
+    background-color: #5e0202;
+    margin: 0;
+    padding:0;
+}
+
+#nav-list > li {
+    border-top:#f66319 solid 1px;
+    border-bottom: #f66319888 solid 1px;
+}
+
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7
+}
+
+#nav-list a span {
+    font-size:1.8em;
+}
+.food h3 {
+    background-color: bleu;
+    margin: 20px 50px;
+    padding: 1px;
+    text-align: center;
+}
+
+.food p {
+    margin: 10px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
         .navbar-toggle:focus{
 		outline: 0;
        }
-.navbar{
-	border-radius: 0px;
-	background-color: rgba(0,0,0,0.8);
-}
-       .navbar-toggle .icon-bar{
+navbar-toggle .icon-bar{
 	       display: block;
 	       width: 22px;
 	       height: 2px;
@@ -98,97 +133,3 @@ p {
 .navbar-header button.navbar-toggle{
 	clear:both;
 }
-.navbar-default .navbar-toggle span.icon-bar {
-    height: 4px;
-    background-color: black;
-}
-h2 {
-		margin: 10px;
-		text-align: center;
-		font-family: Helvetica;
-		font-weight: bold;
-		font-size: 175%;
-               color:blue;
-	}
-	
-#nav-list a:hover {
-    background:#E7E7E7;
-}
-
-#nav-list a {
-	color: #951C49;
-	text-align: center;
-}
-#nav-list {
-	margin-top: 10px;
-        background-color: bleu;
-}
-#nav-list a span{
-	font-size: 1.8em;
-}
-.navbar-header {
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-}
-/* END HEADER */
-
-/* HOME PAGE */
-
-#home-tiles .item-text {
-    background: #5e5e5e;
-    padding: 10px;
-    text-align: center;
-}
-
-#home-tiles .item-text p {
-    font-size: 1.3em;
-    font-weight: 400;
-}
-
-/* END OF HOME PAGE */
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-    /* Header */
-    .navbar-brand {
-        padding-top: 10px;
-	height: 80px;
-    }
-    .navbar-brand h1 { /* Restaurant name */
-        padding-top: 10px;
-        font-size: 5vw; /* 1vw = 1% of viewport with */
-    }
-
-    #collapsable-nav a { /* Collapsed nav menu text */
-        font-size: 1.2em;
-    }
-    #collapsable-nav a span { /* Collapsed nav menu glyph */
-        font-size: 1em;
-        margin-right: 5px;
-    }
-    /* End Header */
-
-    /* Home Page */
-    .menu-item-description {
-        text-align: center;
-    }
-
-}
-.navbar-brand a:hover, .navbar-brand a:focus{
-	text-decoration: none;
-	}
-
