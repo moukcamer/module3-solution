@@ -9,7 +9,7 @@ body{
 	border-radius:0;
 	border:0;
 }
-h2 {
+h2, h3 {
     text-align: center;
 }
 #header-nav > .container {
@@ -81,13 +81,13 @@ h2 {
 }
 
 #nav-list a:hover {
-    background: #E7E7E7
+    background: #E7E7E7;
 }
 
 #nav-list a span {
     font-size:1.8em;
 }
-.food h3 {
+.food {
     background-color: bleu;
     margin: 20px 50px;
     padding: 1px;
