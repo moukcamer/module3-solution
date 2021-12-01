@@ -87,16 +87,30 @@ body{
 .navbar-brand {
     padding-top: 25px;
 }
+@media(min-width: 768px)
+    .navbar-collapse{
+        width: auto;
+        border-top: 0;
+        box-shadow:none;
+}
+navbar-collapse{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-collapse.collapse{
+    display: block;
+    height: auto;
+    padding-botton: 0;
+    overflow: visible;
+}
+        
 
 .navbar-brand h1 {
 
     color: black;
-    /*font-size:1.5em;
-    /*text-transform: uppercase;*/
-    /*font-weight: bold;*/
-    /*text-shadow: 1px 1px 1px #222;*/
-    margin-top: 0;
-    margin-bottom: 0;
+   font-size:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: .75;
     margin-left: 0;
     text-align: left;
