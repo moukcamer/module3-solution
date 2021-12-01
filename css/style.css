@@ -12,6 +12,7 @@ body{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: black;
+     background-color: #61122F;
 }
 #header-nav > .container {
     width: 100%;
@@ -39,10 +40,7 @@ navbar-inverse .navbar-toggle {
 {
 	background-color: grey;
 }
-body{
-	background-color: #61122F;
-	color: white;
-}
+
 .navbar-header {
     font-weight: bold;
     color: black;
