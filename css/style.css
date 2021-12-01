@@ -126,3 +126,9 @@ navbar-toggle .icon-bar{
 	      padding-botton: 10px;
 	      line-height: 20px;
      }
+    .navbar-header button.navbar-toggle, navbar-header .icon-bar {
+	    border: 1px solid #61122f;
+    }
+.navbar-header button.navbar-toggle{
+	clear:both;
+}
