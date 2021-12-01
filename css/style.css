@@ -52,7 +52,13 @@ navbar-inverse .navbar-toggle {
     border-color: black;
     padding: 8px;
 }
-
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 .navbar-default .navbar-toggle span.icon-bar {
     height: 4px;
     background-color: black;
@@ -122,13 +128,13 @@ navbar-collapse{
     overflow: visible;
 }
         
-
 h1 {
     color: black;
-   font-size:30px;
-    margin-top: 10px;
+   font-size:36px;
+    font-weight: 500;
+    margin-top: 20px;
     margin-bottom: 10px;
-    line-height: .75;
+    line-height: 1.1;
     margin-left: 0;
     text-align: left;
 }
