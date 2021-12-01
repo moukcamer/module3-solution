@@ -34,6 +34,15 @@ navbar-inverse .navbar-toggle {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+}
+.container
+{
+	background-color: grey;
+}
+body{
+	background-color: #61122F;
+	color: white;
+}
 .navbar-header {
     font-weight: bold;
     color: black;
