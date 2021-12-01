@@ -12,6 +12,22 @@ body{
 h2 {
     text-align: center;
 }
+#header-nav > .container {
+    width: 100%;
+    padding: 10px;
+    background-color: 5e0202;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+}
+
+.navbar-header {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    border: black solid 3px;
+}
 
 
 
