@@ -92,6 +92,7 @@ h2 {
     background-color: bleu;
     margin: 20px 50px;
     padding: 1px;
+    text-align: center;
 }
 
 .text-center p {
@@ -102,7 +103,7 @@ h2 {
     padding-top: 25px;
 }
 
-        .navbar-toggle:focus{
+    .navbar-toggle:focus{
 		outline: 0;
        }
 navbar-toggle .icon-bar{
