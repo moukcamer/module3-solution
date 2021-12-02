@@ -12,7 +12,16 @@ body{
     border-top: black solid 3px;
     border-bottom: black solid 3px;
 }
-
+.navbar {
+    border-radius: 0px;
+    background-color: rgb(187 38 38 / 80%);
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
 h2 {
     text-align: center;
     box-sizing: border-box;
@@ -26,7 +35,13 @@ html{
     font-size: 10px;
 }
 
-
+.text-center {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #cd1c1c;
+    font-size: 50px;
+    font-weight: bold;
+}
 navbar-inverse .navbar-toggle {
     border-color:#333;
 }
@@ -84,11 +99,6 @@ navbar-inverse .navbar-toggle {
     height: 4px;
     background-color: black;
 }
-.navbar {
-    border: none;
-    background-color: black;
-    color: #61122F;
-    }
 
 #heading {
     font-size: 35px;
