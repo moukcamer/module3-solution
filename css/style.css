@@ -160,7 +160,9 @@ h1 {
     text-align: left;
 display: block;
 }
-
+.navbar-toggle: hover{
+	border-color: #971717;
+}
 #space{
     height:1000px;
     width:0;
