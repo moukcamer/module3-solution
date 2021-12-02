@@ -12,7 +12,8 @@ body{
     border-top: black solid 3px;
     border-bottom: black solid 3px;
 }
-.navbar {
+.navbar-brand {
+    color:grey;
     border-radius: 0px;
     background-color: rgb(187 38 38 / 80%);
 }
@@ -118,9 +119,9 @@ body{
     float: left;
     height: 50px;
     padding: 15px 15px;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 20px;
-    background-color: grey;
+    
 }
 
 
