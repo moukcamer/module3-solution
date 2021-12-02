@@ -127,7 +127,10 @@ body{
     
 }
 
-
+.navbar-default{
+	background:#f61010;
+	border-color: #ebe2e2;
+}
 
 @media(min-width: 768px)
     .navbar-collapse{
