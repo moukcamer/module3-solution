@@ -75,7 +75,7 @@ body{
 }
 
 .navbar-default button.navbar-toggle {
-    border-color: black;
+    background-color: #e7070f;
     padding: 8px;
 }
 
@@ -91,7 +91,10 @@ body{
     padding:0;
 }
 
-#nav-list > li {
+#nav-list > li >a {
+    position: relative;
+    display: block;
+    padding: 10px 15px
     border-top: #888 solid 1px;
     border-bottom: #888 solid 1px;
 }
