@@ -42,7 +42,18 @@ navbar-inverse .navbar-toggle {
     border: 1px solid transparent;
     border-radius: 4px;
 }
-
+}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: bleu;
+		font-family: Helvetica;
+		color: white;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+        clear: right;
+	}
 .navbar-header {
     font-weight: bold;
     color: black;
@@ -67,6 +78,7 @@ navbar-inverse .navbar-toggle {
     padding: 15px 15px;
     font-size: 18px;
     line-height: 20px;
+    background-color: grey;
 }
 .navbar-default .navbar-toggle span.icon-bar {
     height: 4px;
