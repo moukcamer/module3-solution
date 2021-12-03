@@ -2,14 +2,168 @@
 body{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
-    color: red;
+    color: black;
      background-color: #61122F;
 }
 
-#header-nav {
+#header-nav > .container-fluid {
     width: 100%;
     padding: 0;
     background-color: rgb(153, 153, 153);
     border-top: black solid 3px;
     border-bottom: black solid 3px;
+}
+
+.navbar-brand {
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 30px;
+	line-height: 20px;
+	border-radius: 1px;
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.text-center {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #cd1c1c;
+    font-size: 50px;
+    font-weight: bold;
+}
+.navbar-toggle collapsed {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.content {
+	padding: 5px;
+	border: none;
+	background-color: bleu;
+	font-family: Helvetica;
+	color: white;
+	margin: 0px;
+	height: 200px;
+	overflow: auto;
+        clear: right;
+	}
+.navbar-header {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+.navbar-default button.navbar-toggle {
+    background-color: #e7070f;
+    padding: 8px;
+}
+
+.navbar-default .navbar-toggle span.icon-bar {
+    height: 4px;
+    background-color: black;
+}
+
+
+#nav-list {
+    background-color: white;
+    margin: 0;
+    padding:0;
+}
+
+#nav-list > li >a {
+    position: relative;
+    display: block;
+    padding: 10px 15px
+    border-top: #888 solid 1px;
+    border-bottom: #888 solid 1px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7
+}
+
+#nav-list a span {
+    font-size:1.8em;
+}
+/*
+.food {
+    background-color: grey;
+    margin: 20px 50px;
+    padding: 1px;
+}
+
+.navbar-default{
+	background:#f61010;
+	border-color: #ebe2e2;
+}
+
+@media(min-width: 768px)
+    .navbar-collapse{
+        width: auto;
+        border-top: 0;
+        box-shadow:none;
+}
+navbar-collapse{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-collapse.collapse{
+    display: block;
+    height: auto;
+    padding-botton: 0;
+    overflow: visible;
+}
+        
+h1 {
+    color: black;
+   font-size:36px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    margin-left: 0;
+    text-align: left;
+display: block;
+}
+.navbar-toggle: hover{
+	border-color: #971717;
+}
+#space{
+    height:1000px;
+    width:0;
 }
