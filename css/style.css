@@ -81,14 +81,4 @@ h1 {
         border-top: 0;
         box-shadow:none;
 }
-.content {
-	padding: 5px;
-	border: none;
-	background-color: bleu;
-	font-family: Helvetica;
-	color: white;
-	margin: 0px;
-	height: 200px;
-	overflow: auto;
-        clear: right;
-	}
+
