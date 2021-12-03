@@ -43,3 +43,14 @@ body{
     padding-botton: 0;
     overflow: visible;
 }
+.navbar-default .navbar-toggle span.icon-bar {
+    height: 4px;
+    background-color: black;
+}
+.navbar-default button.navbar-toggle {
+    background-color: #e7070f;
+    padding: 8px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
