@@ -8,7 +8,7 @@ body{
 #header-nav > .container-fluid {
     width: 100%;
     padding: 0;
-    background-color: rgb(153, 153, 153);
+    background-color: orange;
     border-top: black solid 3px;
     border-bottom: black solid 3px;
 }
@@ -20,7 +20,7 @@ body{
 	font-size: 30px;
 	line-height: 20px;
 	border-radius: 1px;
-	background-color: yellow;
+	background-color: orange;
 	margin-top: 0px;
 	margin-bottom: 2px;
 }
