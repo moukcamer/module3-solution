@@ -93,3 +93,7 @@ h1 {
     border-top: #888 solid 1px;
     border-bottom: #888 solid 1px;
 }
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
