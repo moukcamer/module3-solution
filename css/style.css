@@ -10,21 +10,11 @@ body{
     width: 100%;
     padding: 0;
     background-color: rgb(153, 153, 153);
-    border-top: black solid 3px;
-    border-bottom: black solid 3px;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
 }
 
-.navbar-brand {
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	font-size: 30px;
-	line-height: 20px;
-	border-radius: 1px;
-	background-color: black;
-	margin-top: 0px;
-	margin-bottom: 2px;
-}
+
 .navbar {
     position: relative;
     min-height: 50px;
