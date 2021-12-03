@@ -1,7 +1,7 @@
 head {
-	display: none;
 	height: 20px;
-	background: aaa;
+	background: black;
+	margin: 30px;
 }
 
 body{
