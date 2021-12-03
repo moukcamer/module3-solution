@@ -70,3 +70,8 @@ h1 {
     text-align: left;
     display: block;
 }
+.food {
+    background-color: grey;
+    margin: 20px 50px;
+    padding: 1px;
+}
