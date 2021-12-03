@@ -75,17 +75,7 @@ h1 {
     margin: 20px 50px;
     padding: 1px;
 }
-.content {
-	padding: 5px;
-	border: none;
-	background-color: bleu;
-	font-family: Helvetica;
-	color: black;
-	margin: 0px;
-	height: 200px;
-	overflow: auto;
-        clear: right;
-	}
+
 *{
     box-sizing: border-box;
 }
