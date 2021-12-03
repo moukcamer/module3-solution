@@ -14,9 +14,11 @@ body{
     border-bottom: black solid 3px;
 }
 .navbar-brand {
-   height: 50px;
-    border-radius: 0px;
-    background-color: rgb(187 38 38 / 80%);
+	height: 50px;
+	border-radius: 0px;
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 2px;	
 }
 .navbar {
     position: relative;
