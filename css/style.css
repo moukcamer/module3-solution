@@ -1,6 +1,6 @@
 body{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: black;
      background-color: #61122f;
 }
@@ -155,7 +155,7 @@ h1 {
     margin-bottom: 10px;
     line-height: 1.1;
     margin-left: 0;
-    text-align: left;
+    text-align: center;
     display: block;
 }
 .navbar-toggle: hover{
