@@ -54,3 +54,8 @@ body{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
     border: 1px solid #61122f;
 }
+#nav-list {
+    background-color: white;
+    margin: 0;
+    padding:0;
+}
