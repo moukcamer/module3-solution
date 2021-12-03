@@ -37,3 +37,9 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
 }
+.navbar-collapse.collapse{
+    display: block;
+    height: auto;
+    padding-botton: 0;
+    overflow: visible;
+}
