@@ -9,8 +9,8 @@ body{
     width: 100%;
     padding: 0;
     background-color: orange;
-    border-top: black solid 3px;
-    border-bottom: black solid 3px;
+    border-top: orange solid 3px;
+    border-bottom: orange solid 3px;
 }
 
 .navbar-brand {
@@ -80,7 +80,7 @@ h1 {
 	border: none;
 	background-color: bleu;
 	font-family: Helvetica;
-	color: white;
+	color: black;
 	margin: 0px;
 	height: 200px;
 	overflow: auto;
