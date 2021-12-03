@@ -14,12 +14,22 @@ body{
     border-bottom: black solid 3px;
 }
 .navbar-brand {
+	
+		
+}
+
+.navbar-brand {
+	float: left;
 	height: 50px;
-	border-radius: 0px;
+	padding: 15px 15px;
+	font-size: 30px;
+	line-height: 20px;
+	border-radius: 1px;
 	background-color: black;
 	margin-top: 0px;
-	margin-bottom: 2px;	
+	margin-bottom: 2px;
 }
+
 .navbar {
     position: relative;
     min-height: 50px;
@@ -51,16 +61,16 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
 }
-}
-	.content {
-		padding: 5px;
-		border: none;
-		background-color: bleu;
-		font-family: Helvetica;
-		color: white;
-		margin: 0px;
-		height: 200px;
-		overflow: auto;
+
+.content {
+	padding: 5px;
+	border: none;
+	background-color: bleu;
+	font-family: Helvetica;
+	color: white;
+	margin: 0px;
+	height: 200px;
+	overflow: auto;
         clear: right;
 	}
 .navbar-header {
@@ -119,15 +129,6 @@ body{
     background-color: grey;
     margin: 20px 50px;
     padding: 1px;
-}
-
-.navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 30px;
-    line-height: 20px;
-    
 }
 
 .navbar-default{
