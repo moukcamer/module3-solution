@@ -75,3 +75,9 @@ h1 {
     margin: 20px 50px;
     padding: 1px;
 }
+@media(min-width: 768px)
+    .navbar-collapse{
+        width: auto;
+        border-top: 0;
+        box-shadow:none;
+}
