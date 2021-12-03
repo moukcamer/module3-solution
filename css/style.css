@@ -96,3 +96,10 @@ h1 {
     margin: 0;
     width: 100%;
 }
+#nav-list > li >a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border-top: #888 solid 1px;
+    border-bottom: #888 solid 1px;
+}
