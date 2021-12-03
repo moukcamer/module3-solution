@@ -6,22 +6,10 @@ body{
      background-color: #61122F;
 }
 
-#header-nav > .container-fluid {
+#header-nav > .container {
     width: 100%;
     padding: 0;
     background-color: rgb(153, 153, 153);
     border-top: black solid 3px;
     border-bottom: black solid 3px;
-}
-
-.navbar-brand {
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	font-size: 30px;
-	line-height: 20px;
-	border-radius: 1px;
-	background-color: black;
-	margin-top: 0px;
-	margin-bottom: 2px;
 }
