@@ -86,4 +86,6 @@ h1 {
 	overflow: auto;
         clear: right;
 	}
-
+*{
+    box-sizing: border-box;
+}
