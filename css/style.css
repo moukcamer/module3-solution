@@ -89,3 +89,10 @@ h1 {
 *{
     box-sizing: border-box;
 }
+.navbar-header {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
