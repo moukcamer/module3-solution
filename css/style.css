@@ -1,6 +1,6 @@
 body{
-    font-family:"Oxygen", sans-serif;
-    font-size: 30px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14-xspx;
     color: black;
      background-color: #61122F;
 }
@@ -39,11 +39,14 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
 }
-@media(min-width: 767px){
-	.navbar-brand{
-		padding-top:10px;
-		height: 80px;
+@media(max-width: 767px){
+	.visible-xs{
+		display :block;
 	}
+}
+.nav {
+    padding-left: 0;
+    list-style: none;
 }
 navbar-toggle .icon-bar {
 	display: block;
