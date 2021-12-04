@@ -1,5 +1,5 @@
 body{
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"'Oxygen', sans-serif;
     font-size: 30px;
     color: black;
      background-color: #61122F;
@@ -55,10 +55,7 @@ navbar-toggle .icon-bar {
 	margin-top: 4px;
 }
 	
-#nav-list {
-    background-color: white;
-    margin: 10px;
-}
+
 h1 {
     color: grey;
    font-size:36px;
@@ -86,6 +83,10 @@ h1 {
     margin: 0;
     width: 100%;
 }
+#nav-list {
+    background-color: white;
+    margin: 10px;
+}
 #nav-list > li >a {
     position: relative;
     display: block;
@@ -103,7 +104,7 @@ h1 {
 #nav-list a span {
 	font-size: 1.8em;
 }
-.navbar-header button.navbar-toggle, navbar-header icon-bar {
+.navbar-header button.navbar-toggle, navbar-header .icon-bar {
 	border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
