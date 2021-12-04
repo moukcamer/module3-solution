@@ -27,7 +27,7 @@ body{
 .navbar-brand:hover{
 	color: white;
 }
-.navbar-toggle collapsed {
+.navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -38,6 +38,7 @@ body{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    overflow: hidden;
 }
 .navbar-collapse.collapse{
     display: block;
