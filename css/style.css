@@ -38,29 +38,25 @@ body{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    overflow: hidden;
 }
-.navbar-collapse.collapse{
-    display: block;
-    height: auto;
-    padding-botton: 0;
-    overflow: visible;
+@media(min-width: 768px){
+	.navbar-toggle{
+		display: none;
+	}
 }
-.navbar-default .navbar-toggle span.icon-bar {
-    height: 4px;
-    background-color: black;
+navbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
 }
-.navbar-default button.navbar-toggle {
-    background-color: #e7070f;
-    padding: 8px;
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-    border: 1px solid #61122f;
-}
+	
 #nav-list {
     background-color: white;
-    margin: 0;
-    padding:0;
+    margin: 10px;
 }
 h1 {
     color: grey;
@@ -99,5 +95,17 @@ h1 {
 #nav-list a {
     color: #951C49;
     text-align: center;
+}
+#nav-list a: hover {
+	background:#E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, navbar-header icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
 }
 
