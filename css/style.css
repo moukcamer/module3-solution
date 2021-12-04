@@ -39,9 +39,10 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
 }
-@media(min-width: 768px){
-	.navbar-toggle{
-		display: none;
+@media(min-width: 767px){
+	.navbar-brand{
+		padding-top:10px;
+		height: 80px;
 	}
 }
 navbar-toggle .icon-bar {
