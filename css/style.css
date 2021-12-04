@@ -41,7 +41,7 @@ body{
 }
 @media(max-width: 767px){
 	.visible-xs{
-		display :block;
+		display :block! important;
 	}
 }
 .nav {
