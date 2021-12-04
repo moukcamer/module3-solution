@@ -58,14 +58,7 @@ navbar-toggle .icon-bar {
 	margin-top: 4px;
 }
 	
-button {
-    overflow: visible;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-}
+
 h1 {
     color: grey;
    font-size:36px;
