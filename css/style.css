@@ -37,16 +37,18 @@ body {
     border-bottom: orange solid 3px;
 }
 
-.navbar-brand {
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	font-size: 35px;
-	line-height: 20px;
-	border-radius: 1px;
-	background-color: orange;
-	margin-top: 0px;
-	margin-bottom: 2px;
+.navbar-brand { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-bottom: 20px;
 }
 .navbar-brand:hover{
 	color: white;
