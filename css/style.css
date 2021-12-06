@@ -1,113 +1,108 @@
-body{
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    color: black;
-     background-color: #61122F;
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
 }
 
-#header-nav > .container-fluid {
-    width: 100%;
-    padding: 0;
-    background-color: orange;
-    border-top: orange solid 3px;
-    border-bottom: orange solid 3px;
+/** HEADER **/
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
 }
 
 .navbar-brand {
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	font-size: 35px;
-	line-height: 20px;
-	border-radius: 1px;
-	background-color: orange;
-	margin-top: 0px;
-	margin-bottom: 2px;
+    padding-top: 25px;
+    padding-bottom: 40px;
 }
-.navbar-brand:hover{
-	color: white;
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
 }
-.navbar-toggle {
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.7em;
+    text-transform: uppercase;
     position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-right: 25px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-   border: 2px solid white;
-    border-radius: 4px;
-}
-
-@media(max-width: 767px){
-	.visible-xs{
-		display :block! important;
-	}
-}
-.nav {
-    padding-left: 0;
-    list-style: none;
-}
-navbar-toggle .icon-bar {
-	display: block;
-	width: 22px;
-	height: 2px;
-	border-radius: 1px;
-}
-.navbar-toggle .icon-bar + .icon-bar {
-	margin-top: 4px;
-}
-	
-
-h1 {
-    color: grey;
-   font-size:36px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 1.1;
-    margin-left: 0;
-    text-align: center;
-    display: block;
-}
-.food {
-    background-color: white;
-    margin: 20px 50px;
-    padding: 1px;
-}
-
-*{
-    box-sizing: border-box;
-}
-.navbar-header {
     font-weight: bold;
-    color: black;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-bottom: 20px;
 }
+
 #nav-list {
-    background-color: white;
-    margin: 10px;
-}
-#nav-list > li >a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    border-top: #888 solid 1px;
-    border-bottom: #888 solid 1px;
+    margin-top: 10px;
 }
 #nav-list a {
     color: #951C49;
     text-align: center;
 }
-#nav-list a: hover {
-	background:#E7E7E7;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
 }
-#nav-list a span {
-	font-size: 1.8em;
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
 }
-.navbar-header button.navbar-toggle, navbar-header .icon-bar {
-	border: 1px solid #61122f;
+
+
+#nav-list li p {
+    background: #8e24aa;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+#home-tiles .item-text {
+    background: #5e5e5e;
+    padding: 10px;
+}
+
+#home-tiles .item-text p {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+/* END OF HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 4vw; /* 1vw = 1% of viewport width */
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    /* End Header */
+
+    /* Home Page */
+    .menu-item-description {
+        text-align: center;;
+    }
+
 }
