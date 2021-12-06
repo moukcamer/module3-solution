@@ -1,8 +1,8 @@
-body {
-    font-size: 16px;
-    color: #fff;
-    background-color: #61122f;
-    font-family: 'Oxygen', sans-serif;
+body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: black;
+     background-color: #61122F;
 }
 /** HEADER **/
 #header-nav > .container-fluid {
@@ -37,18 +37,16 @@ body {
     border-bottom: orange solid 3px;
 }
 
-.navbar-brand { /* Restaurant name */
-    font-family: 'Lora', serif;
-    color: #557c3e;
-    font-size: 1.7em;
-    text-transform: uppercase;
-    position: relative;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-    padding-bottom: 20px;
+.navbar-brand {
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 35px;
+	line-height: 20px;
+	border-radius: 1px;
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 2px;
 }
 .navbar-brand:hover{
 	color: white;
@@ -136,3 +134,26 @@ h1 {
 .navbar-header button.navbar-toggle, navbar-header .icon-bar {
 	border: 1px solid #61122f;
 }
+/* END OF HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 4vw; /* 1vw = 1% of viewport width */
+    }
