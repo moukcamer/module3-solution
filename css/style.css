@@ -5,14 +5,14 @@ body{
      background-color: #61122F;
 }
 
-#header-nav > .container-fluid {
-    width: 100%;
-    padding: 0;
-    background-color: orange;
-    border-top: orange solid 3px;
-    border-bottom: orange solid 3px;
-}
 
+.navbar-header {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
 
 .navbar-brand:hover{
 	color: white;
