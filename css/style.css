@@ -66,13 +66,6 @@ h1 {
 *{
     box-sizing: border-box;
 }
-.navbar-header {
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-}
 
 .navbar-header button.navbar-toggle, navbar-header .icon-bar {
 	border: 1px solid #61122f;
