@@ -13,17 +13,7 @@ body{
     border-bottom: orange solid 3px;
 }
 
-.navbar-brand {
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	font-size: 35px;
-	line-height: 20px;
-	border-radius: 1px;
-	background-color: orange;
-	margin-top: 0px;
-	margin-bottom: 2px;
-}
+
 .navbar-brand:hover{
 	color: white;
 }
