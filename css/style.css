@@ -79,13 +79,7 @@ h1 {
     background-color: white;
     margin: 10px;
 }
-#nav-list > li >a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    border-top: #888 solid 1px;
-    border-bottom: #888 solid 1px;
-}
+
 #nav-list a {
     color: #951C49;
     text-align: center;
