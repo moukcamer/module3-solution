@@ -98,3 +98,6 @@ h1 {
         padding-top: 10px;
         font-size: 4vw; /* 1vw = 1% of viewport width */
     }
+.navbar-header button.navbar-toggle, navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
