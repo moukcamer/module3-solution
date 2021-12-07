@@ -27,7 +27,7 @@ body{
 .navbar-brand:hover{
 	color: white;
 }
-.navbar-toggler {
+.navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -48,7 +48,7 @@ body{
     padding-left: 0;
     list-style: none;
 }
-navbar-toggler .icon-bar {
+navbar-toggle .icon-bar {
 	display: block;
 	width: 22px;
 	height: 2px;
