@@ -45,6 +45,4 @@ h1 {
     box-sizing: border-box;
 }
 
-.navbar-header button.navbar-toggle, navbar-header .icon-bar {
-	border: 1px solid #61122f;
-}
+
