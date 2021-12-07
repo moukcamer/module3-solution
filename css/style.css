@@ -35,11 +35,11 @@ body{
 	color: white;
 }
 
-@media(max-width: 767px){
-	.visible-xs{
-		display :block! important;
-	}
-}
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
 .nav {
     padding-left: 0;
     list-style: none;
