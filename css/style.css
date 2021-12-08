@@ -17,8 +17,7 @@ body{
     background-color: orange;
     border-top: orange solid 3px;
     border-bottom: orange solid 3px;
-	webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+
 }
 .navbar-brand {
 	float: left;
@@ -31,6 +30,11 @@ body{
 	margin-top: 0px;
 	margin-bottom: 2px;
 
+}
+
+
+#collapsable-nav{
+	
 }
 
 .navbar-brand:hover{
