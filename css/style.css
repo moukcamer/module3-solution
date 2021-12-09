@@ -58,7 +58,15 @@ navbar-toggle .icon-bar {
 	margin-top: 4px;
 }
 	
-
+#chicken:before,
+#beef:before,
+#sushi:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+}
 h1 {
     color: grey;
    font-size:36px;
