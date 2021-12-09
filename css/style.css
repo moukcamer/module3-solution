@@ -36,8 +36,8 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
     margin-right: 15px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 @media(max-width: 767px){
 	.visible-xs{
