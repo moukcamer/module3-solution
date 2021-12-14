@@ -97,6 +97,7 @@ h1 {
 #nav-list {
     background-color: white;
     margin: 10px;
+    display: none;
 }
 #nav-list > li >a {
     position: relative;
