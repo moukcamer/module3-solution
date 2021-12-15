@@ -148,4 +148,11 @@ li{
 .navbar {
   min-height: 80px;
 }
-
+p {
+    padding: 10px;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:grey ;
+    font-size: medium;
+}
