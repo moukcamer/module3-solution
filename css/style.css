@@ -31,13 +31,13 @@ body{
 	text-shadow: 1px 1px 1px #222;
 	border-top: 0;
 	border-bottom: 0;
-	line-height: 0;
+	line-height: .75;
 }
 .navbar-brand {
 	padding: 0px 25px;
 	float: left;
-	height: 50px;
-	line-height: 20px;
+	height: 100px;
+	line-height: 10px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
