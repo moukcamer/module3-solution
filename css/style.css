@@ -1,6 +1,6 @@
 body{
     font-family:'Oxygen',sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
      background-color: #61122F;
 }
@@ -12,7 +12,7 @@ body{
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #b31d1d;
-	height: 4px;
+	
 }
 #header-nav > .container-fluid {
     width: 100%;
@@ -32,10 +32,6 @@ body{
 	border-top: 0;
 	border-bottom: 0;
 	line-height: .75;
-}
-h1 {
-	margin-top: 0px;
-	margin-bottom: 10px;
 }
 .navbar-brand {
 	padding: 0px 25px;
