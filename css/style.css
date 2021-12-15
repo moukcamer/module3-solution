@@ -12,11 +12,11 @@ body{
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #b31d1d;
-	
+    height: 4px;
 }
 #header-nav > .container-fluid {
     width: 100%;
-    padding: 0;
+    padding: 3px;
     background-color: orange;
     border-top: orange solid 3px;
     border-bottom: orange solid 3px;
