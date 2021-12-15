@@ -15,7 +15,7 @@ body{
     height: 4px;
 }
 #header-nav > .container-fluid {
-    width: 50%;
+    width: 100%;
     padding: 0px;
     background-color: orange;
     border-top: orange solid 3px;
@@ -34,7 +34,7 @@ body{
 	line-height: .75;
 }
 .navbar-brand {
-	padding: 0px 25px;
+	padding-top: 25px;
 	float: left;
 	height: 10px;
 	line-height: 10px;
