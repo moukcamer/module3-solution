@@ -74,7 +74,7 @@ navbar-toggle .icon-bar {
 
 li{ 
     font-size: medium;
-    background-color: #E7E7E7;
+    background-color: rgb(255, 255, 255);
     color: #f6b319;
     text-align: center;
     border: 1px solid black;
@@ -100,7 +100,7 @@ li{
 }
 
 #nav-list a: hover {
-	background:red;
+	background:#E7E7E7;
 }
 #nav-list a span {
 	font-size: 1.8em;
