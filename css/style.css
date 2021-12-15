@@ -65,9 +65,9 @@ navbar-toggle .icon-bar {
 	margin-top: 4px;
 }
 	
-@media (min-width: 768px{
-	.navbar-toggle{
-		display: none
+@media(max-width: 767px){
+	.visible-xs{
+		display :block;
 	}
 }
 
@@ -110,10 +110,6 @@ navbar-toggle .icon-bar {
   visibility: hidden;
 }
 
-@media(max-width: 767px){
-	.visible-xs{
-		display :block;
-	}
-}
+
 
 
