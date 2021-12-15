@@ -10,7 +10,9 @@ body{
 	border-raduis: 0;
 	border: 0;
 }
-
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #b31d1d;
+}
 #header-nav > .container-fluid {
     width: 100%;
     padding: 0;
