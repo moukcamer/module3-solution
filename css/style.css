@@ -143,3 +143,14 @@ li{
 .navbar {
   min-height: 80px;
 }
+.content {
+	padding: 5px;
+	border: none;
+	background-color: bleu;
+	font-family: Helvetica;
+	color: white;
+	margin: 0px;
+	height: 200px;
+	overflow: auto;
+        clear: right;
+	}
