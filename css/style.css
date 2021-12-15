@@ -18,8 +18,8 @@ body{
     width: 100%;
     padding: 0;
     background-color: orange;
-    border-top: orange solid 1px;
-    border-bottom: orange solid 1px;
+    border-top: orange solid 3px;
+    border-bottom: orange solid 3px;
 }
 
 .navbar-brand h1 {
@@ -29,8 +29,8 @@ body{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	border-top:10;
-	border-bottom:10;
+	border-top: 0;
+	border-bottom: 0;
 	line-height: .75;
 }
 .navbar-brand {
