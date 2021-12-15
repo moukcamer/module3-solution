@@ -14,7 +14,7 @@ body{
 #header-nav > .container-fluid {
     width: 100%;
     padding: 0;
-    background-color: orange;
+    background-color: white;
     border-top: orange solid 3px;
     border-bottom: orange solid 3px;
 }
@@ -74,7 +74,7 @@ navbar-toggle .icon-bar {
 
 li{ 
     font-size: medium;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     color: #f6b319;
     text-align: center;
     border: 1px solid black;
