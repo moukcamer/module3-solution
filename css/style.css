@@ -110,6 +110,10 @@ navbar-toggle .icon-bar {
   visibility: hidden;
 }
 
-
+@media(max-width: 767px){
+	.visible-xs{
+		display :block;
+	}
+}
 
 
