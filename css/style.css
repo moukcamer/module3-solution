@@ -15,7 +15,7 @@ body{
     height: 4px;
 }
 #header-nav > .container-fluid {
-    width: 100%;
+    width: 50%;
     padding: 0px;
     background-color: orange;
     border-top: orange solid 3px;
