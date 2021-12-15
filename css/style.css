@@ -30,11 +30,11 @@ body{
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	border-top: 0;
-	border-bottom: 2px;
+	border-bottom: 0px;
 	line-height: .75;
 }
 .navbar-brand {
-	padding-top: 25px;
+	padding: 0px 25px;
 	float: left;
 	height: 10px;
 	line-height: 10px;
@@ -147,3 +147,4 @@ li{
 .navbar {
   min-height: 80px;
 }
+
