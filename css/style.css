@@ -67,11 +67,10 @@ navbar-toggle .icon-bar {
 	margin-top: 4px;
 }
 	
-@media(min-width: 768px)
-    .navbar-collapse{
-        width: auto;
-        border-top: 0;
-        box-shadow:none;
+
+@media (max-width: 767px)
+.visible-xs {
+    display: block!important;
 }
 
 li{ 
