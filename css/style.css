@@ -17,8 +17,8 @@ body{
     width: 100%;
     padding: 0;
     background-color: orange;
-    border-top: orange solid 3px;
-    border-bottom: orange solid 3px;
+    border-top: orange solid 1px;
+    border-bottom: orange solid 1px;
 }
 
 .navbar-brand h1 {
