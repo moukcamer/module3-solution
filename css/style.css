@@ -5,7 +5,7 @@ body{
      background-color: #61122F;
 }
 /**HEADER**/
-#header_nav {
+#header-nav {
 	background-color: #f6b319;
 	border-raduis: 0;
 	border: 0;
@@ -110,31 +110,25 @@ navbar-toggle .icon-bar {
   visibility: hidden;
 }
 
-button {
-    appearance: auto;
-    -webkit-writing-mode: horizontal-tb !important;
-    font-style: ;
-    font-variant-ligatures: ;
-    font-variant-caps: ;
-    font-variant-numeric: ;
-    font-variant-east-asian: ;
-    font-weight: ;
-    font-stretch: ;
-    font-size: ;
-    font-family: ;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    box-sizing: border-box;
+
+.button {
+  display: inline-block;
+  border: solid white 2px;
+  margin-top: 25px;
+  -moz-transition: color .5s ease-in;
+  -o-transition: color .5s ease-in;
+  -webkit-transition: color .5s ease-in;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  padding: 2px;
 }
-
-
+.button:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+}
+.navbar {
+  min-height: 80px;
+}
