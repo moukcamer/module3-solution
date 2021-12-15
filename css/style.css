@@ -100,9 +100,9 @@ navbar-toggle .icon-bar {
     box-sizing: border-box;
 }
 
-#chicken:before,
-#beef:before,
-#sushi:before {
+#Chicken:before,
+#Beef:before,
+#Sushi:before {
   display: block;
   content: " ";
   margin-top: -60px;
