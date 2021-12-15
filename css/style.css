@@ -71,7 +71,15 @@ navbar-toggle .icon-bar {
         border-top: 0;
         box-shadow:none;
 }
-navb
+
+li{ 
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: #f6b319;
+    text-align: center;
+    border: 1px solid black;
+}
+
 
 .navbar-nav{
 	margin: 7.5px -15px;
