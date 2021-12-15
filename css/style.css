@@ -29,8 +29,8 @@ body{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	border-top: 0;
-	border-bottom: 10;
+	border-top:0;
+	border-bottom:10;
 	line-height: .75;
 }
 .navbar-brand {
@@ -144,5 +144,4 @@ li{
 .navbar {
   min-height: 80px;
 }
-
 
