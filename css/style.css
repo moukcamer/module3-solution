@@ -29,8 +29,8 @@ body{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	border-top: black solid 3px ;
-	border-bottom: black solid 3px;
+	border-top:0;
+	border-bottom:0;
 	line-height: .75;
 }
 .navbar-brand {
