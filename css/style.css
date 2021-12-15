@@ -65,90 +65,41 @@ navbar-toggle .icon-bar {
 	margin-top: 4px;
 }
 	
-
-
-
-.navbar-toggle {	
-    display: block
-}
-@media(max-width: 767px){
-	.visible-xs{
-		display :block;
+@media (min-width: 768px{
+	.navbar-toggle{
+		display: none
 	}
 }
-.nav {
-    padding-left: 0;
-    list-style: none;
+
+.navbar-nav{
+	margin: 7.5px -15px;
 }
-navbar-toggle .icon-bar {
-	display: block;
-	width: 22px;
-	height: 2px;
-	border-radius: 1px;
-}
-.navbar-toggle .icon-bar + .icon-bar {
-	margin-top: 4px;
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-botton: 10px;
+	line-weight: 20px;
 }
 
-
-
-#chicken:before,
-#beef:before,
-#sushi:before {
-  display: block;
-  content: " ";
-  margin-top: -60px;
-  height: 60px;
-  visibility: hidden;
-}
-h1 {
-    color: grey;
-   font-size:36px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 1.1;
-    margin-left: 0;
-    text-align: center;
-    display: block;
-}
-.food {
-    background-color: white;
-    margin: 20px 50px;
-    padding: 1px;
-}
-*{
-    box-sizing: border-box;
-}
-.navbar-header {
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-}
 #nav-list {
-    background-color: white;
-    margin: 10px;
-    display: none;
+    margin-top: 10px;
 }
-#nav-list > li >a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    border-top: #888 solid 1px;
-    border-bottom: #888 solid 1px;
-}
+
 #nav-list a {
     color: #951C49;
     text-align: center;
 }
+
 #nav-list a: hover {
 	background:#E7E7E7;
 }
 #nav-list a span {
 	font-size: 1.8em;
 }
-.navbar-header button.navbar-toggle, navbar-header .icon-bar {
-	border: 1px solid #61122f;
-}
+
+
+
+
+
+
+
+
