@@ -96,9 +96,19 @@ navbar-toggle .icon-bar {
 	font-size: 1.8em;
 }
 
+*{
+    box-sizing: border-box;
+}
 
-
-
+#chicken:before,
+#beef:before,
+#sushi:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+}
 
 
 
